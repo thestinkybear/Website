@@ -12,7 +12,15 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
+<script>
+  const password = "sadiedog71";
+  const entered = prompt("Enter password to view this site:");
 
+  if (entered !== password) {
+    document.body.innerHTML = "";
+    alert("Incorrect password");
+  }
+</script>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -638,4 +646,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
